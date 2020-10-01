@@ -14,7 +14,11 @@ function submitFunction(e) {
     let fiction = document.getElementById('fradio');
     let programming = document.getElementById('pradio');
     let cooking = document.getElementById('cradio');
-
+    if(true)
+    {
+        console.log('error occured');
+    }
+        
     if (fiction.checked) {
         type = fiction.value;
     }
